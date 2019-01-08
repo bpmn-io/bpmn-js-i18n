@@ -11,7 +11,7 @@ This repository collects translations for [bpmn-js](https://github.com/bpmn-io/b
 
 ## Use a Translation
 
-Follow along the [i18n example](https://github.com/bpmn-io/bpmn-js-examples/tree/master/i18n) and replace the [`translations.js` stub](https://github.com/bpmn-io/bpmn-js-examples/blob/master/i18n/app/customTranslate/translations.js) with one of the language files in this repository.
+Follow along the [i18n example](https://github.com/bpmn-io/bpmn-js-examples/tree/master/i18n) and replace the [`translations.js` stub](https://github.com/bpmn-io/bpmn-js-examples/blob/master/i18n/public/customTranslate/translations.js) with one of the language files in this repository.
 
 
 ## Contributing

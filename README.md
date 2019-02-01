@@ -5,8 +5,8 @@ This repository collects translations for [bpmn-js](https://github.com/bpmn-io/b
 
 ## Available Translations
 
-* [Chinese](./translations/chinese.js)
-* [German](./translations/german.js)
+* [Chinese](./translations/zn.js)
+* [German](./translations/de.js)
 * [Portuguese](./translations/pt.js)
 
 

@@ -1,6 +1,6 @@
 ## bpmn-js translations
 
-This repository collects translations for [bpmn-js](https://github.com/bpmn-io/bpmn-js) user interface elements, messages and tooltips.
+This repository collects community maintained translations for [bpmn-js](https://github.com/bpmn-io/bpmn-js) user interface elements, messages and tooltips.
 
 
 ## Available Translations

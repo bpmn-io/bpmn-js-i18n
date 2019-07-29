@@ -7,6 +7,7 @@ This repository collects community maintained translations for [bpmn-js](https:/
 
 * [Chinese](./translations/zn.js)
 * [German](./translations/de.js)
+* [Italian](./translations/it.js)
 * [Portuguese](./translations/pt.js)
 
 

@@ -6,10 +6,11 @@ This repository collects community maintained translations for [bpmn-js](https:/
 ## Available Translations
 
 * [Chinese](./translations/zn.js)
-* [German](./translations/de.js)
 * [French](./translations/fr.js)
+* [German](./translations/de.js)
 * [Italian](./translations/it.js)
 * [Portuguese](./translations/pt.js)
+* [Russian](./translations/ru.js)
 
 
 ## Use a Translation

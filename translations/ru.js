@@ -57,7 +57,7 @@ export default = {
     'Message Intermediate Catch Event': 'Обработчик промежуточного события-сообщения',
     'Message Intermediate Throw Event': 'Инициатор промежуточного события-сообщения',
     'Timer Intermediate Catch Event': 'Обработчик промежуточного события-таймера',
-    'Escalation Intermediate Throw Event': 'Инициатор промежуточного события-таймера',
+    'Escalation Intermediate Throw Event': 'Инициатор промежуточного события-эскалации',
     'Conditional Intermediate Catch Event': 'Обработчик промежуточного события-условия',
     'Link Intermediate Catch Event': 'Обработчик промежуточного события-ссылки',
     'Link Intermediate Throw Event': 'Инициатор промежуточного события-ссылки',

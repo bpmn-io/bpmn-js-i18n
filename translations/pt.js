@@ -18,7 +18,7 @@ export default {
   'Activate the hand tool': 'Atvar ferramenta de mão',
   'Activate the lasso tool': 'Ativar ferramenta de laço',
   'Activate the create/remove space tool': 'Ativar add/remover ferraenta espacial',
-  'Create expanded SubProcess': 'Criar SubProcesso expandido',export default {
+  'Create expanded SubProcess': 'Criar SubProcesso expandido',
 
   // Labels
   'Activate the global connect tool': 'Ativar ferramenta de conexão global',

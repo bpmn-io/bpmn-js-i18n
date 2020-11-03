@@ -1,6 +1,6 @@
 ## bpmn-js translations
 
-This repository collects community maintained translations for [bpmn-js](https://github.com/bpmn-io/bpmn-js) user interface elements, messages and tooltips.
+This repository collects community maintained translations for [bpmn-js](https://github.com/bpmn-io/bpmn-js) user interface elements, messages and tooltips. 
 
 
 ## Available Translations
@@ -20,7 +20,7 @@ Follow along the [i18n example](https://github.com/bpmn-io/bpmn-js-examples/tree
 
 ## Contributing
 
-Create a [new language file](https://github.com/bpmn-io/bpmn-js-i18n/new/master/translations) and contribute a translation.
+Create a [new language file](https://github.com/bpmn-io/bpmn-js-i18n/new/master/translations) and contribute a translation. Checkout [`translations.json`](https://github.com/bpmn-io/bpmn-js/blob/develop/docs/translations.json) for a list of available messages.
 
 
 ## License

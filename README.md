@@ -1,5 +1,7 @@
 ## bpmn-js translations
 
+[![CI](https://github.com/bpmn-io/bpmn-js-i18n/actions/workflows/CI.yml/badge.svg)](https://github.com/bpmn-io/bpmn-js-i18n/actions/workflows/CI.yml)
+
 This repository collects community maintained translations for [bpmn-js](https://github.com/bpmn-io/bpmn-js) user interface elements, messages and tooltips. 
 
 

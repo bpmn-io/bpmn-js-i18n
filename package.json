@@ -4,6 +4,7 @@
   "description": "Community contributed bpmn-js translations.",
   "type": "module",
   "scripts": {
+    "all": "npm test",
     "test": "node test/test.js"
   },
   "repository": {

@@ -1,5 +1,5 @@
 export default {
-    // Labels
+  // Labels
   'Activate the global connect tool' : 'Activar la herramienta de conexión global',
   'Append {type}': 'Añadir {tipo}',
   'Add Lane above': 'Añadir línea arriba',

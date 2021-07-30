@@ -1,0 +1,19 @@
+{
+  "name": "bpmn-js-i18n",
+  "version": "0.0.0",
+  "description": "Community contributed bpmn-js translations.",
+  "type": "module",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpmn-io/bpmn-js-i18n.git"
+  },
+  "keywords": [
+    "bpmn-js",
+    "i18n"
+  ],
+  "author": "Nico Rehwaldt <https://github.com/nikku>",
+  "license": "MIT"
+}

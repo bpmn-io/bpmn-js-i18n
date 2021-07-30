@@ -23,7 +23,7 @@ Follow along the [i18n example](https://github.com/bpmn-io/bpmn-js-examples/tree
 
 ## Contributing
 
-Create a [new language file](https://github.com/bpmn-io/bpmn-js-i18n/new/master/translations) and contribute a translation. Checkout [`translations.json`](https://github.com/bpmn-io/bpmn-js/blob/develop/docs/translations.json) for a list of available messages.
+Create a [new language file](https://github.com/bpmn-io/bpmn-js-i18n/new/master/translations) and contribute a translation. Use [`en.js`](./translations/en.js) as a starting point.
 
 
 ## License

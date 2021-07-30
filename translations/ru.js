@@ -1,4 +1,4 @@
-export default = {
+export default {
     'Activate the global connect tool': 'Включить иструмент «Глобальное соединение»',
     'Append {type}': 'Добавить {type}',
     'Append Task': 'Добавить задачу',

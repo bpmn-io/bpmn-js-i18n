@@ -19,5 +19,8 @@
   "license": "MIT",
   "files": [
     "translations"
-  ]
+  ],
+  "devDependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }

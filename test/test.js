@@ -22,12 +22,28 @@ async function run() {
     return messages;
   }, {});
 
+  if (process.env.UPDATE_TRANSLATIONS) {
+    writeTranslation('en.js', availableMessages);
+  }
+
   console.log('Checking translations');
 
   for (const translation of translations) {
 
     try {
       const { default: messages } = await import(`../translations/${translation}`);
+
+      const orderedMessages =
+        Object.entries(messages)
+          .sort((a, b) => a === b ? 0 : a < b ? -1 : 1)
+          .reduce((messages, entry) => {
+            messages[entry[0]] = entry[1];
+            return messages;
+          }, {});
+
+      if (process.env.UPDATE_TRANSLATIONS) {
+        writeTranslation(translation, orderedMessages);
+      }
 
       const stats = {
         ok: 0,
@@ -36,14 +52,14 @@ async function run() {
       };
 
       for (const message in availableMessages) {
-        if (message in messages) {
+        if (message in orderedMessages) {
           stats.ok++;
         } else {
           stats.missing++;
         }
       }
 
-      for (const message in messages) {
+      for (const message in orderedMessages) {
         if (!(message in availableMessages)) {
           stats.invalid++;
         }
@@ -70,3 +86,9 @@ run().then(errors => {
     process.exit(1);
   }
 });
+
+// helpers //////////////
+
+function writeTranslation(file, messages) {
+  fs.writeFileSync(`translations/${file}`, `export default ${JSON.stringify(messages, null, '  ')};`, 'utf8');
+}

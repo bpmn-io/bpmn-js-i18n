@@ -16,5 +16,8 @@
     "i18n"
   ],
   "author": "Nico Rehwaldt <https://github.com/nikku>",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "translations"
+  ]
 }

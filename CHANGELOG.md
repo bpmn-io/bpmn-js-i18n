@@ -4,7 +4,7 @@ All notable changes to [bpmn-js-i18n](https://github.com/bpmn-io/bpmn-js-i18n) a
 
 ## Unreleased
 
-___Note:__ Yet to be released changes appear here._
+* `i18n`: Updates and actualizes [russian locale](/translations/en.js)
 
 ## 1.0.0
 

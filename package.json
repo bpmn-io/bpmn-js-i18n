@@ -7,6 +7,9 @@
     "all": "npm test",
     "test": "node test/test.js"
   },
+  "engines": {
+    "node": ">= 16"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bpmn-io/bpmn-js-i18n.git"

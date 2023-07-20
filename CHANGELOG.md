@@ -3,10 +3,11 @@
 All notable changes to [bpmn-js-i18n](https://github.com/bpmn-io/bpmn-js-i18n) are documented here. We use [semantic versioning](http://semver.org/) for releases.
 
 ## Unreleased
+* `FIX`: fixes typos in [Russian locale file](/translations/ru.js)
 
 ## 1.1.0
 
-* `FEAT`: update [russian locale](/translations/ru.js)
+* `FEAT`: update [Russian locale](/translations/ru.js)
 
 ## 1.0.0
 

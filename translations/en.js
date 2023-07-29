@@ -21,6 +21,7 @@ export default {
     "Append ReceiveTask": "Append ReceiveTask",
     "Append SignalIntermediateCatchEvent": "Append SignalIntermediateCatchEvent",
     "Append Task": "Append Task",
+    "Append TextAnnotation": "Append TextAnnotation",
     "Append TimerIntermediateCatchEvent": "Append TimerIntermediateCatchEvent",
     "Append compensation activity": "Append compensation activity",
     "Append element": "Append element",

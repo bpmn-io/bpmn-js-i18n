@@ -4,7 +4,7 @@ All notable changes to [bpmn-js-i18n](https://github.com/bpmn-io/bpmn-js-i18n) a
 
 ## Unreleased
 
-* `FEAT`: add `Append TextAnnotation` property for English and Russian locale
+* `FEAT`: add `Append TextAnnotation` property for English and Russian locale ([#22](https://github.com/bpmn-io/bpmn-js-i18n/issues/22))
 
 # 1.1.1
 

@@ -4,6 +4,12 @@ All notable changes to [bpmn-js-i18n](https://github.com/bpmn-io/bpmn-js-i18n) a
 
 ## Unreleased
 
+___Note:__ Yet to be released changes appear here._
+
+# 1.2.0
+
+* `FEAT`: translate _Append TextAnnotation_ to English and Russian ([#25](https://github.com/bpmn-io/bpmn-js-i18n/pull/25))
+
 # 1.1.1
 
 * `FIX`: correct typos in [Russian locale](/translations/ru.js)

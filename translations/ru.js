@@ -21,6 +21,7 @@ export default {
   "Append ReceiveTask": "Добавить задачу получения сообщения",
   "Append SignalIntermediateCatchEvent": "Добавить обработчик промежуточного события-сигнала",
   "Append Task": "Добавить задачу",
+  "Append TextAnnotation": "Добавить комментарий",
   "Append TimerIntermediateCatchEvent": "Добавить обработчик промежуточного события-таймера",
   "Append compensation activity": "Добавить компенсирующее действие",
   "Append element": "Добавить элемент",

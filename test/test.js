@@ -1,79 +1,88 @@
 import fs from 'fs';
 
-import path from 'path';
-
 import fetch from 'node-fetch';
 
-const translations = fs.readdirSync('translations');
+const translationPaths = fs.readdirSync('translations');
 
-const TRANSLATIONS_FILE = 'https://raw.githubusercontent.com/bpmn-io/bpmn-js/develop/docs/translations.json';
+const translationsUrl = 'https://raw.githubusercontent.com/bpmn-io/bpmn-js/add-error-translations/docs/translations.json';
 
 
 async function run() {
 
   const errors = [];
 
-  console.log('Fetching translatable strings');
+  console.log('Fetching translation keys');
 
-  const messages = await fetch(TRANSLATIONS_FILE).then(r => r.text());
+  const translationsKeys = await fetch(translationsUrl).then(response => response.text());
 
-  const availableMessages = JSON.parse(messages).reduce((messages, message) => {
-    messages[message] = message;
-    return messages;
+  const translationsEnglish = JSON.parse(translationsKeys).reduce((translationsEnglish, key) => {
+    return {
+      ...translationsEnglish,
+      [ key ]: key
+    };
   }, {});
 
   if (process.env.UPDATE_TRANSLATIONS) {
-    writeTranslation('en.js', availableMessages);
+    writeTranslation('en.js', translationsEnglish);
   }
 
-  console.log('Checking translations');
+  console.log('Verifying translations');
 
-  for (const translation of translations) {
+  for (const translationPath of translationPaths) {
+    const name = translationPath.split('.')[ 0 ].toUpperCase();
+
+    console.log(`Verifying ${ name } translations`);
 
     try {
-      const { default: messages } = await import(`../translations/${translation}`);
+      const { default: translations } = await import(`../translations/${translationPath}`);
 
-      const orderedMessages =
-        Object.entries(messages)
+      const translationsOrdered =
+        Object.keys(translations)
           .sort((a, b) => a === b ? 0 : a < b ? -1 : 1)
-          .reduce((messages, entry) => {
-            messages[entry[0]] = entry[1];
-            return messages;
+          .reduce((translationsOrdered, key) => {
+            translationsOrdered[ key ] = translations[ key ];
+
+            return translationsOrdered;
           }, {});
 
       if (process.env.UPDATE_TRANSLATIONS) {
-        writeTranslation(translation, orderedMessages);
+        writeTranslation(translationPath, translationsOrdered);
       }
 
       const stats = {
         ok: 0,
         missing: 0,
-        invalid: 0
+        unknown: 0
       };
 
-      for (const message in availableMessages) {
-        if (message in orderedMessages) {
+      for (const key in translationsEnglish) {
+        if (key in translationsOrdered) {
           stats.ok++;
         } else {
           stats.missing++;
+
+          process.env.VERBOSE && console.log(`Missing translation <${ key }>`);
         }
       }
 
-      for (const message in orderedMessages) {
-        if (!(message in availableMessages)) {
-          stats.invalid++;
+      for (const key in translationsOrdered) {
+        if (!(key in translationsEnglish)) {
+          stats.unknown++;
+
+          process.env.VERBOSE && console.log(`Unknown translation <${ key }>`);
         }
       }
 
       if (stats.missing) {
-        console.warn(`WARN: ${translation} missing ${stats.missing} entries`);
+        console.warn(`WARN: ${ name} has ${stats.missing} missing translations`);
       }
 
-      if (stats.invalid) {
-        console.warn(`WARN: ${translation} invalid ${stats.invalid} entries`);
+      if (stats.unknown) {
+        console.warn(`WARN: ${ name } has ${stats.unknown} unknown translations`);
       }
     } catch (error) {
-      console.error(`ERR: <${translation}> Failed to load.`, error);
+      console.error(`ERR: <${ name }> could not be validated`, error);
+
       errors.push(error);
     }
   }
@@ -90,5 +99,5 @@ run().then(errors => {
 // helpers //////////////
 
 function writeTranslation(file, messages) {
-  fs.writeFileSync(`translations/${file}`, `export default ${JSON.stringify(messages, null, '  ')};`, 'utf8');
+  fs.writeFileSync(`translations/${file}`, `export default ${JSON.stringify(messages, null, 2)};`, 'utf8');
 }

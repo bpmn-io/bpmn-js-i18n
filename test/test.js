@@ -4,7 +4,7 @@ import fetch from 'node-fetch';
 
 const translationPaths = fs.readdirSync('translations');
 
-const translationsUrl = 'https://raw.githubusercontent.com/bpmn-io/bpmn-js/add-error-translations/docs/translations.json';
+const translationsUrl = 'https://raw.githubusercontent.com/bpmn-io/bpmn-js/develop/docs/translations.json';
 
 
 async function run() {

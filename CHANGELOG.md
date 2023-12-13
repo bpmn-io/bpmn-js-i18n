@@ -6,13 +6,25 @@ All notable changes to [bpmn-js-i18n](https://github.com/bpmn-io/bpmn-js-i18n) a
 
 ___Note:__ Yet to be released changes appear here._
 
+# 2.0.0
+
+_Adapts to bpmn-js version scheme, and re-publishes `v1.3.0` changes._
+
+* `FEAT`: update translations according to `bpmn-js@16` ([#27](https://github.com/bpmn-io/bpmn-js-i18n/pull/27))
+* `DEPS`: add bpmn-js peer dependency
+
+### Breaking Changes
+
+* Labels changed from title case to sentence case
+* Non-core bpmn-js translation strings removed
+
 # 1.3.1
 
 _Reverts 1.3.0 breaking changes._
 
 # 1.3.0
 
-* `FEAT`: update translations according to bpmn-js@16 [#27](https://github.com/bpmn-io/bpmn-js-i18n/pull/27)
+* `FEAT`: update translations according to `bpmn-js@16` ([#27](https://github.com/bpmn-io/bpmn-js-i18n/pull/27))
 * `DEPS`: add bpmn-js peer dependency
 
 # 1.2.0

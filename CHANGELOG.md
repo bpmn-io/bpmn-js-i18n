@@ -20,7 +20,7 @@ _Re-publishes `v1.3.0` changes._
 
 ## 1.3.1
 
-_Reverts 1.3.0 breaking changes._
+_Reverts `v1.3.0` breaking changes._
 
 ## 1.3.0
 

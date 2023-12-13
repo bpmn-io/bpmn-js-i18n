@@ -8,7 +8,7 @@ ___Note:__ Yet to be released changes appear here._
 
 ## 2.0.0
 
-_Adapts to bpmn-js version scheme, and re-publishes `v1.3.0` changes._
+_Re-publishes `v1.3.0` changes._
 
 * `FEAT`: update translations according to `bpmn-js@16` ([#27](https://github.com/bpmn-io/bpmn-js-i18n/pull/27))
 * `DEPS`: add bpmn-js peer dependency

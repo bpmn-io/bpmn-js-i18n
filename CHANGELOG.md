@@ -6,6 +6,10 @@ All notable changes to [bpmn-js-i18n](https://github.com/bpmn-io/bpmn-js-i18n) a
 
 ___Note:__ Yet to be released changes appear here._
 
+# 1.3.1
+
+_Reverts 1.3.0 breaking changes._
+
 # 1.3.0
 
 * `FEAT`: update translations according to bpmn-js@16 [#27](https://github.com/bpmn-io/bpmn-js-i18n/pull/27)

@@ -25,5 +25,8 @@
   ],
   "devDependencies": {
     "node-fetch": "^2.6.1"
+  },
+  "peerDependencies": {
+    "bpmn-js": ">= 16"
   }
 }

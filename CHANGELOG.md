@@ -6,6 +6,10 @@ All notable changes to [bpmn-js-i18n](https://github.com/bpmn-io/bpmn-js-i18n) a
 
 ___Note:__ Yet to be released changes appear here._
 
+## 2.0.1
+
+* `FIX`: correct inaccurate translation in zn.js ([#30](https://github.com/bpmn-io/bpmn-js-i18n/pull/30))
+
 ## 2.0.0
 
 _Re-publishes `v1.3.0` changes._

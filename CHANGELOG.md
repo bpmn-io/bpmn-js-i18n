@@ -6,6 +6,10 @@ All notable changes to [bpmn-js-i18n](https://github.com/bpmn-io/bpmn-js-i18n) a
 
 ___Note:__ Yet to be released changes appear here._
 
+## 2.1.0
+
+* `FEAT`: improve Spanish translations ([#31](https://github.com/bpmn-io/bpmn-js-i18n/pull/31)))
+
 ## 2.0.1
 
 * `FIX`: correct inaccurate translation in zn.js ([#30](https://github.com/bpmn-io/bpmn-js-i18n/pull/30))

@@ -11,6 +11,7 @@ This repository collects community maintained translations for [bpmn-js](https:/
 * [French](./translations/fr.js)
 * [German](./translations/de.js)
 * [Italian](./translations/it.js)
+* [Japanese](./translations/ja.js)
 * [Polish](./translations/pl.js)
 * [Portuguese](./translations/pt.js)
 * [Russian](./translations/ru.js)

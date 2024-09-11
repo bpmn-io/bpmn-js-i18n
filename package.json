@@ -1,6 +1,6 @@
 {
   "name": "bpmn-js-i18n",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Community contributed bpmn-js translations.",
   "type": "module",
   "scripts": {

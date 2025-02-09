@@ -51,15 +51,15 @@ async function run() {
 
       const stats = {
         ok: 0,
-        missing: 0,
-        unknown: 0
+        missing: [],
+        unknown: []
       };
 
       for (const key in translationsEnglish) {
         if (key in translationsOrdered) {
           stats.ok++;
         } else {
-          stats.missing++;
+          stats.missing.push(key);
 
           process.env.VERBOSE && console.log(`Missing translation <${ key }>`);
         }
@@ -67,18 +67,18 @@ async function run() {
 
       for (const key in translationsOrdered) {
         if (!(key in translationsEnglish)) {
-          stats.unknown++;
+          stats.unknown.push(key);
 
           process.env.VERBOSE && console.log(`Unknown translation <${ key }>`);
         }
       }
 
       if (stats.missing) {
-        console.warn(`WARN: ${ name} has ${stats.missing} missing translations`);
+        console.warn(`WARN: ${ name} has ${stats.missing.length} missing translations: ${stats.missing}`);
       }
 
       if (stats.unknown) {
-        console.warn(`WARN: ${ name } has ${stats.unknown} unknown translations`);
+        console.warn(`WARN: ${ name } has ${stats.unknown.length} unknown translations`);
       }
     } catch (error) {
       console.error(`ERR: <${ name }> could not be validated`, error);

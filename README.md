@@ -25,7 +25,9 @@ See also [translation coverage](./docs/COVERAGE.md).
 Follow along the [i18n example](https://github.com/bpmn-io/bpmn-js-examples/tree/master/i18n) and replace the [`translations.js` stub](https://github.com/bpmn-io/bpmn-js-examples/blob/main/i18n/src/customTranslate/translations.js) with one of the language files in this repository.
 
 
-## Contributing
+## Contribute
+
+Checkout our [translation coverage](./docs/COVERAGE.md) and help us keep our translations up-to-date.
 
 Create a [new language file](https://github.com/bpmn-io/bpmn-js-i18n/new/master/translations) and contribute a translation. Use [`en.js`](./translations/en.js) as a starting point.
 

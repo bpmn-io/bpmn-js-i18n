@@ -15,6 +15,11 @@ async function run() {
 
   const translationsKeys = await fetch(translationsUrl).then(response => response.text());
 
+  const results = {
+    keys: translationsKeys,
+    translations: {}
+  };
+
   const translationsEnglish = JSON.parse(translationsKeys).reduce((translationsEnglish, key) => {
     return {
       ...translationsEnglish,
@@ -76,11 +81,17 @@ async function run() {
       if (stats.unknown.length) {
         console.warn('WARN: %s has %s unknown translations: %o', name, stats.unknown.length, stats.unknown);
       }
+
+      results.translations[name] = stats;
     } catch (error) {
       console.error(`ERR: <${ name }> could not be validated`, error);
 
       errors.push(error);
     }
+  }
+
+  if (!errors.length) {
+    writeResults(results);
   }
 
   return errors;
@@ -96,4 +107,38 @@ run().then(errors => {
 
 function writeTranslation(file, messages) {
   fs.writeFileSync(`translations/${file}`, `export default ${JSON.stringify(messages, null, 2)};`, 'utf8');
+}
+
+function writeResults(results) {
+
+  const status = (stats) => {
+    return [
+      [ 0, '🟢' ],
+      [ 10, '🟡' ],
+      [ results.keys.length, '🔴' ]
+    ].find(e => e[0] >= stats.missing.length)[1];
+  };
+
+  const body = Object.entries(results.translations).map(([ name, stats ]) => {
+    const language = name.toLowerCase();
+
+    return `|[${language}](../translations/${language}.js)|${status(stats)}|${stats.missing.length}|${stats.unknown.length}|`;
+  }).join('\n');
+
+
+  const markdown = `# Translation Coverage
+
+A coverage report for existing translations, updated regularily against the latest [bpmn-js release](https://github.com/bpmn-io/bpmn-js).
+
+| Language | Status | Missing keys | Unknown keys |
+| :--- | :---: | ---: | ---: |
+${body}
+
+_Missing keys_ indicate entries without translation, _unknown keys_ refer to entries that are no longer valid.
+`;
+
+  fs.mkdirSync('docs', { recursive: true});
+
+  fs.writeFileSync(`docs/COVERAGE.md`, markdown, 'utf8');
+  fs.writeFileSync(`docs/coverage.json`, JSON.stringify(results, 0, 2), 'utf8');
 }

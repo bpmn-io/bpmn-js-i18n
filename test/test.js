@@ -11,7 +11,7 @@ async function run() {
 
   const errors = [];
 
-  console.log('Fetching translation keys');
+  console.log('INFO: Fetching translation keys');
 
   const translationsKeys = await fetch(translationsUrl).then(response => response.text());
 
@@ -26,12 +26,12 @@ async function run() {
     writeTranslation('en.js', translationsEnglish);
   }
 
-  console.log('Verifying translations');
+  console.log('INFO: Verifying translations');
 
   for (const translationPath of translationPaths) {
     const name = translationPath.split('.')[ 0 ].toUpperCase();
 
-    console.log(`Verifying ${ name } translations`);
+    console.log(`INFO: Verifying ${ name } translations`);
 
     try {
       const { default: translations } = await import(`../translations/${translationPath}`);
@@ -60,16 +60,12 @@ async function run() {
           stats.ok.push(key);
         } else {
           stats.missing.push(key);
-
-          process.env.VERBOSE && console.log(`Missing translation <${ key }>`);
         }
       }
 
       for (const key in translationsOrdered) {
         if (!(key in translationsEnglish)) {
           stats.unknown.push(key);
-
-          process.env.VERBOSE && console.log(`Unknown translation <${ key }>`);
         }
       }
 

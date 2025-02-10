@@ -1,6 +1,4 @@
-import fs from 'fs';
-
-import fetch from 'node-fetch';
+import fs from 'node:fs';
 
 const translationPaths = fs.readdirSync('translations');
 

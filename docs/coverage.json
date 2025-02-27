@@ -1,5 +1,5 @@
 {
-  "keys": "[\n  \"Activate create/remove space tool\",\n  \"Activate global connect tool\",\n  \"Activate hand tool\",\n  \"Activate lasso tool\",\n  \"Ad-hoc\",\n  \"Add lane above\",\n  \"Add lane below\",\n  \"Add text annotation\",\n  \"Align elements\",\n  \"Align elements bottom\",\n  \"Align elements center\",\n  \"Align elements left\",\n  \"Align elements middle\",\n  \"Align elements right\",\n  \"Align elements top\",\n  \"Append compensation activity\",\n  \"Append conditional intermediate catch event\",\n  \"Append end event\",\n  \"Append gateway\",\n  \"Append intermediate/boundary event\",\n  \"Append message intermediate catch event\",\n  \"Append receive task\",\n  \"Append signal intermediate catch event\",\n  \"Append task\",\n  \"Append timer intermediate catch event\",\n  \"Business rule task\",\n  \"Call activity\",\n  \"Cancel boundary event\",\n  \"Cancel end event\",\n  \"Change element\",\n  \"Collection\",\n  \"Compensation boundary event\",\n  \"Compensation end event\",\n  \"Compensation intermediate throw event\",\n  \"Compensation start event\",\n  \"Complex gateway\",\n  \"Conditional boundary event\",\n  \"Conditional boundary event (non-interrupting)\",\n  \"Conditional flow\",\n  \"Conditional intermediate catch event\",\n  \"Conditional start event\",\n  \"Conditional start event (non-interrupting)\",\n  \"Connect to other element\",\n  \"Connect using association\",\n  \"Connect using data input association\",\n  \"Create data object reference\",\n  \"Create data store reference\",\n  \"Create end event\",\n  \"Create expanded sub-process\",\n  \"Create gateway\",\n  \"Create group\",\n  \"Create intermediate/boundary event\",\n  \"Create pool/participant\",\n  \"Create start event\",\n  \"Create task\",\n  \"Data object reference\",\n  \"Data store reference\",\n  \"Default flow\",\n  \"Delete\",\n  \"Distribute elements horizontally\",\n  \"Distribute elements vertically\",\n  \"Divide into three lanes\",\n  \"Divide into two lanes\",\n  \"Empty pool/participant\",\n  \"Empty pool/participant (removes content)\",\n  \"End event\",\n  \"Error boundary event\",\n  \"Error end event\",\n  \"Error start event\",\n  \"Escalation boundary event\",\n  \"Escalation boundary event (non-interrupting)\",\n  \"Escalation end event\",\n  \"Escalation intermediate throw event\",\n  \"Escalation start event\",\n  \"Escalation start event (non-interrupting)\",\n  \"Event sub-process\",\n  \"Event-based gateway\",\n  \"Exclusive gateway\",\n  \"Inclusive gateway\",\n  \"Intermediate throw event\",\n  \"Link intermediate catch event\",\n  \"Link intermediate throw event\",\n  \"Loop\",\n  \"Manual task\",\n  \"Message boundary event\",\n  \"Message boundary event (non-interrupting)\",\n  \"Message end event\",\n  \"Message intermediate catch event\",\n  \"Message intermediate throw event\",\n  \"Message start event\",\n  \"Message start event (non-interrupting)\",\n  \"Open {element}\",\n  \"Parallel gateway\",\n  \"Parallel multi-instance\",\n  \"Participant multiplicity\",\n  \"Receive task\",\n  \"Script task\",\n  \"Search in diagram\",\n  \"Send task\",\n  \"Sequence flow\",\n  \"Sequential multi-instance\",\n  \"Service task\",\n  \"Signal boundary event\",\n  \"Signal boundary event (non-interrupting)\",\n  \"Signal end event\",\n  \"Signal intermediate catch event\",\n  \"Signal intermediate throw event\",\n  \"Signal start event\",\n  \"Signal start event (non-interrupting)\",\n  \"Start event\",\n  \"Sub-process\",\n  \"Sub-process (collapsed)\",\n  \"Sub-process (expanded)\",\n  \"Task\",\n  \"Terminate end event\",\n  \"Timer boundary event\",\n  \"Timer boundary event (non-interrupting)\",\n  \"Timer intermediate catch event\",\n  \"Timer start event\",\n  \"Timer start event (non-interrupting)\",\n  \"Toggle non-interrupting\",\n  \"Transaction\",\n  \"User task\",\n  \"flow elements must be children of pools/participants\"\n]",
+  "keys": "[\n  \"Activate create/remove space tool\",\n  \"Activate global connect tool\",\n  \"Activate hand tool\",\n  \"Activate lasso tool\",\n  \"Ad-hoc sub-process\",\n  \"Ad-hoc sub-process (collapsed)\",\n  \"Ad-hoc sub-process (expanded)\",\n  \"Add lane above\",\n  \"Add lane below\",\n  \"Add text annotation\",\n  \"Align elements\",\n  \"Align elements bottom\",\n  \"Align elements center\",\n  \"Align elements left\",\n  \"Align elements middle\",\n  \"Align elements right\",\n  \"Align elements top\",\n  \"Append compensation activity\",\n  \"Append conditional intermediate catch event\",\n  \"Append end event\",\n  \"Append gateway\",\n  \"Append intermediate/boundary event\",\n  \"Append message intermediate catch event\",\n  \"Append receive task\",\n  \"Append signal intermediate catch event\",\n  \"Append task\",\n  \"Append timer intermediate catch event\",\n  \"Business rule task\",\n  \"Call activity\",\n  \"Cancel boundary event\",\n  \"Cancel end event\",\n  \"Change element\",\n  \"Collection\",\n  \"Compensation boundary event\",\n  \"Compensation end event\",\n  \"Compensation intermediate throw event\",\n  \"Compensation start event\",\n  \"Complex gateway\",\n  \"Conditional boundary event\",\n  \"Conditional boundary event (non-interrupting)\",\n  \"Conditional flow\",\n  \"Conditional intermediate catch event\",\n  \"Conditional start event\",\n  \"Conditional start event (non-interrupting)\",\n  \"Connect to other element\",\n  \"Connect using association\",\n  \"Connect using data input association\",\n  \"Create data object reference\",\n  \"Create data store reference\",\n  \"Create end event\",\n  \"Create expanded sub-process\",\n  \"Create gateway\",\n  \"Create group\",\n  \"Create intermediate/boundary event\",\n  \"Create pool/participant\",\n  \"Create start event\",\n  \"Create task\",\n  \"Data object reference\",\n  \"Data store reference\",\n  \"Default flow\",\n  \"Delete\",\n  \"Distribute elements horizontally\",\n  \"Distribute elements vertically\",\n  \"Divide into three lanes\",\n  \"Divide into two lanes\",\n  \"Empty pool/participant\",\n  \"Empty pool/participant (removes content)\",\n  \"End event\",\n  \"Error boundary event\",\n  \"Error end event\",\n  \"Error start event\",\n  \"Escalation boundary event\",\n  \"Escalation boundary event (non-interrupting)\",\n  \"Escalation end event\",\n  \"Escalation intermediate throw event\",\n  \"Escalation start event\",\n  \"Escalation start event (non-interrupting)\",\n  \"Event sub-process\",\n  \"Event-based gateway\",\n  \"Exclusive gateway\",\n  \"Inclusive gateway\",\n  \"Intermediate throw event\",\n  \"Link intermediate catch event\",\n  \"Link intermediate throw event\",\n  \"Loop\",\n  \"Manual task\",\n  \"Message boundary event\",\n  \"Message boundary event (non-interrupting)\",\n  \"Message end event\",\n  \"Message intermediate catch event\",\n  \"Message intermediate throw event\",\n  \"Message start event\",\n  \"Message start event (non-interrupting)\",\n  \"Open {element}\",\n  \"Parallel gateway\",\n  \"Parallel multi-instance\",\n  \"Participant multiplicity\",\n  \"Receive task\",\n  \"Script task\",\n  \"Search in diagram\",\n  \"Send task\",\n  \"Sequence flow\",\n  \"Sequential multi-instance\",\n  \"Service task\",\n  \"Signal boundary event\",\n  \"Signal boundary event (non-interrupting)\",\n  \"Signal end event\",\n  \"Signal intermediate catch event\",\n  \"Signal intermediate throw event\",\n  \"Signal start event\",\n  \"Signal start event (non-interrupting)\",\n  \"Start event\",\n  \"Sub-process\",\n  \"Sub-process (collapsed)\",\n  \"Sub-process (expanded)\",\n  \"Task\",\n  \"Terminate end event\",\n  \"Timer boundary event\",\n  \"Timer boundary event (non-interrupting)\",\n  \"Timer intermediate catch event\",\n  \"Timer start event\",\n  \"Timer start event (non-interrupting)\",\n  \"Toggle non-interrupting\",\n  \"Transaction\",\n  \"User task\",\n  \"flow elements must be children of pools/participants\"\n]",
   "translations": {
     "DE": {
       "ok": [
@@ -7,7 +7,8 @@
         "Activate global connect tool",
         "Activate hand tool",
         "Activate lasso tool",
-        "Ad-hoc",
+        "Ad-hoc sub-process (collapsed)",
+        "Ad-hoc sub-process (expanded)",
         "Add lane above",
         "Add lane below",
         "Add text annotation",
@@ -128,10 +129,11 @@
         "User task",
         "flow elements must be children of pools/participants"
       ],
-      "missing": [],
+      "missing": [
+        "Ad-hoc sub-process"
+      ],
       "unknown": [
-        "Ad-hoc sub-process (collapsed)",
-        "Ad-hoc sub-process (expanded)",
+        "Ad-hoc",
         "Append text annotation",
         "Change type",
         "Connect using sequence/message flow or association",
@@ -164,7 +166,8 @@
         "Activate global connect tool",
         "Activate hand tool",
         "Activate lasso tool",
-        "Ad-hoc",
+        "Ad-hoc sub-process (collapsed)",
+        "Ad-hoc sub-process (expanded)",
         "Add lane above",
         "Add lane below",
         "Add text annotation",
@@ -285,10 +288,11 @@
         "User task",
         "flow elements must be children of pools/participants"
       ],
-      "missing": [],
+      "missing": [
+        "Ad-hoc sub-process"
+      ],
       "unknown": [
-        "Ad-hoc sub-process (collapsed)",
-        "Ad-hoc sub-process (expanded)",
+        "Ad-hoc",
         "Append text annotation",
         "Change type",
         "Connect using sequence/message flow or association",
@@ -321,7 +325,8 @@
         "Activate global connect tool",
         "Activate hand tool",
         "Activate lasso tool",
-        "Ad-hoc",
+        "Ad-hoc sub-process (collapsed)",
+        "Ad-hoc sub-process (expanded)",
         "Add lane above",
         "Add lane below",
         "Add text annotation",
@@ -442,10 +447,11 @@
         "User task",
         "flow elements must be children of pools/participants"
       ],
-      "missing": [],
+      "missing": [
+        "Ad-hoc sub-process"
+      ],
       "unknown": [
-        "Ad-hoc sub-process (collapsed)",
-        "Ad-hoc sub-process (expanded)",
+        "Ad-hoc",
         "Append text annotation",
         "Change type",
         "Connect using sequence/message flow or association",
@@ -478,7 +484,8 @@
         "Activate global connect tool",
         "Activate hand tool",
         "Activate lasso tool",
-        "Ad-hoc",
+        "Ad-hoc sub-process (collapsed)",
+        "Ad-hoc sub-process (expanded)",
         "Add lane above",
         "Add lane below",
         "Add text annotation",
@@ -566,6 +573,7 @@
         "flow elements must be children of pools/participants"
       ],
       "missing": [
+        "Ad-hoc sub-process",
         "Align elements",
         "Align elements bottom",
         "Align elements center",
@@ -602,8 +610,7 @@
         "Toggle non-interrupting"
       ],
       "unknown": [
-        "Ad-hoc sub-process (collapsed)",
-        "Ad-hoc sub-process (expanded)",
+        "Ad-hoc",
         "Change type",
         "Connect using sequence/message flow or association",
         "Remove",
@@ -625,7 +632,8 @@
         "Activate global connect tool",
         "Activate hand tool",
         "Activate lasso tool",
-        "Ad-hoc",
+        "Ad-hoc sub-process (collapsed)",
+        "Ad-hoc sub-process (expanded)",
         "Add lane above",
         "Add lane below",
         "Add text annotation",
@@ -713,6 +721,7 @@
         "flow elements must be children of pools/participants"
       ],
       "missing": [
+        "Ad-hoc sub-process",
         "Align elements",
         "Align elements bottom",
         "Align elements center",
@@ -749,8 +758,7 @@
         "Toggle non-interrupting"
       ],
       "unknown": [
-        "Ad-hoc sub-process (collapsed)",
-        "Ad-hoc sub-process (expanded)",
+        "Ad-hoc",
         "Change type",
         "Connect using sequence/message flow or association",
         "Remove",
@@ -773,7 +781,9 @@
         "Activate global connect tool",
         "Activate hand tool",
         "Activate lasso tool",
-        "Ad-hoc",
+        "Ad-hoc sub-process",
+        "Ad-hoc sub-process (collapsed)",
+        "Ad-hoc sub-process (expanded)",
         "Add lane above",
         "Add lane below",
         "Add text annotation",
@@ -895,35 +905,7 @@
         "flow elements must be children of pools/participants"
       ],
       "missing": [],
-      "unknown": [
-        "Ad-hoc sub-process (collapsed)",
-        "Ad-hoc sub-process (expanded)",
-        "Append text annotation",
-        "Change type",
-        "Connect using sequence/message flow or association",
-        "Expanded pool/participant",
-        "Remove",
-        "already rendered {element}",
-        "correcting missing bpmnElement on {plane} to {rootElement}",
-        "diagram not part of bpmn:Definitions",
-        "element required",
-        "element {element} referenced by {referenced}#{property} not yet drawn",
-        "failed to import {element}",
-        "missing {semantic}#attachedToRef",
-        "more than {count} child lanes",
-        "multiple DI elements defined for {element}",
-        "no bpmnElement referenced in {element}",
-        "no diagram to display",
-        "no parent for {element} in {parent}",
-        "no plane for {element}",
-        "no process or collaboration to display",
-        "no shape type specified",
-        "out of bounds release",
-        "unknown di {di} for element {semantic}",
-        "unrecognized flowElement {element} in context {context}",
-        "unsupported bpmnElement for {plane}: {rootElement}",
-        "{semantic}#{side} Ref not specified"
-      ]
+      "unknown": []
     },
     "PL": {
       "ok": [
@@ -931,7 +913,8 @@
         "Activate global connect tool",
         "Activate hand tool",
         "Activate lasso tool",
-        "Ad-hoc",
+        "Ad-hoc sub-process (collapsed)",
+        "Ad-hoc sub-process (expanded)",
         "Add lane above",
         "Add lane below",
         "Add text annotation",
@@ -1040,6 +1023,7 @@
         "flow elements must be children of pools/participants"
       ],
       "missing": [
+        "Ad-hoc sub-process",
         "Align elements",
         "Align elements bottom",
         "Align elements center",
@@ -1055,8 +1039,7 @@
         "Toggle non-interrupting"
       ],
       "unknown": [
-        "Ad-hoc sub-process (collapsed)",
-        "Ad-hoc sub-process (expanded)",
+        "Ad-hoc",
         "Change type",
         "Connect using sequence/message flow or association",
         "Remove",
@@ -1076,7 +1059,8 @@
         "Activate global connect tool",
         "Activate hand tool",
         "Activate lasso tool",
-        "Ad-hoc",
+        "Ad-hoc sub-process (collapsed)",
+        "Ad-hoc sub-process (expanded)",
         "Add lane above",
         "Add lane below",
         "Add text annotation",
@@ -1172,6 +1156,7 @@
         "flow elements must be children of pools/participants"
       ],
       "missing": [
+        "Ad-hoc sub-process",
         "Align elements",
         "Align elements bottom",
         "Align elements center",
@@ -1200,8 +1185,7 @@
         "Toggle non-interrupting"
       ],
       "unknown": [
-        "Ad-hoc sub-process (collapsed)",
-        "Ad-hoc sub-process (expanded)",
+        "Ad-hoc",
         "Change type",
         "Connect using sequence/message flow or association",
         "Remove",
@@ -1224,7 +1208,8 @@
         "Activate global connect tool",
         "Activate hand tool",
         "Activate lasso tool",
-        "Ad-hoc",
+        "Ad-hoc sub-process (collapsed)",
+        "Ad-hoc sub-process (expanded)",
         "Add lane above",
         "Add lane below",
         "Add text annotation",
@@ -1345,11 +1330,11 @@
         "flow elements must be children of pools/participants"
       ],
       "missing": [
+        "Ad-hoc sub-process",
         "Toggle non-interrupting"
       ],
       "unknown": [
-        "Ad-hoc sub-process (collapsed)",
-        "Ad-hoc sub-process (expanded)",
+        "Ad-hoc",
         "Append text annotation",
         "Change type",
         "Connect using sequence/message flow or association",
@@ -1370,7 +1355,8 @@
         "Activate global connect tool",
         "Activate hand tool",
         "Activate lasso tool",
-        "Ad-hoc",
+        "Ad-hoc sub-process (collapsed)",
+        "Ad-hoc sub-process (expanded)",
         "Add lane above",
         "Add lane below",
         "Add text annotation",
@@ -1481,6 +1467,7 @@
         "flow elements must be children of pools/participants"
       ],
       "missing": [
+        "Ad-hoc sub-process",
         "Align elements",
         "Align elements bottom",
         "Align elements center",
@@ -1494,8 +1481,7 @@
         "Toggle non-interrupting"
       ],
       "unknown": [
-        "Ad-hoc sub-process (collapsed)",
-        "Ad-hoc sub-process (expanded)",
+        "Ad-hoc",
         "Change type",
         "Connect using sequence/message flow or association",
         "Remove",

@@ -9,6 +9,7 @@ ___Note:__ Yet to be released changes appear here._
 ## 2.3.0
 
 * `FEAT`: improve Japanese translation ([#36](https://github.com/bpmn-io/bpmn-js-i18n/pull/36))
+* `FEAT`: update translations to `bpmn-js@18.2.0` ([#34](https://github.com/bpmn-io/bpmn-js-i18n/pull/34), [#33](https://github.com/bpmn-io/bpmn-js-i18n/pull/34))
 
 ## 2.2.0
 

@@ -6,6 +6,10 @@ All notable changes to [bpmn-js-i18n](https://github.com/bpmn-io/bpmn-js-i18n) a
 
 ___Note:__ Yet to be released changes appear here._
 
+## 2.3.0
+
+* `FEAT`: improve Japanese translation ([#36](https://github.com/bpmn-io/bpmn-js-i18n/pull/36))
+
 ## 2.2.0
 
 * `FEAT`: add Japanese translation ([#32](https://github.com/bpmn-io/bpmn-js-i18n/pull/32))

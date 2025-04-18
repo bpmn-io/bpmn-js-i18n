@@ -7,15 +7,15 @@ This repository collects community maintained translations for [bpmn-js](https:/
 
 ## Available Translations
 
-* [Chinese](./translations/zn.js)
-* [French](./translations/fr.js)
-* [German](./translations/de.js)
-* [Italian](./translations/it.js)
-* [Japanese](./translations/ja.js)
-* [Polish](./translations/pl.js)
-* [Portuguese](./translations/pt.js)
-* [Russian](./translations/ru.js)
-* [Spanish](./translations/es.js)
+* [Chinese](./src/translations/zn.ts)
+* [French](./src/translations/fr.ts)
+* [German](./src/translations/de.ts)
+* [Italian](./src/translations/it.ts)
+* [Japanese](./src/translations/ja.ts)
+* [Polish](./src/translations/pl.ts)
+* [Portuguese](./src/translations/pt.ts)
+* [Russian](./src/translations/ru.ts)
+* [Spanish](./src/translations/es.ts)
 
 See also [translation coverage](./docs/COVERAGE.md).
 
@@ -29,7 +29,7 @@ Follow along the [i18n example](https://github.com/bpmn-io/bpmn-js-examples/tree
 
 Checkout our [translation coverage](./docs/COVERAGE.md) and help us keep our translations up-to-date.
 
-Create a [new language file](https://github.com/bpmn-io/bpmn-js-i18n/new/master/translations) and contribute a translation. Use [`en.js`](./translations/en.js) as a starting point.
+Create a [new language file](https://github.com/bpmn-io/bpmn-js-i18n/new/master/translations) and contribute a translation. Use [`en.js`](./src/translations/en.ts) as a starting point.
 
 
 ## License

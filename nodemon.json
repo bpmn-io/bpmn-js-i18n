@@ -1,0 +1,16 @@
+{
+  "verbose": true,
+  "ignore": [
+    "node_modules",
+    "test"
+  ],
+  "ext": "ts,js,json",
+  "watch": [
+    "src",
+    "rollup.config.ts",
+    "tsconfig.json",
+    "nodemon.json",
+    "package.json"
+  ],
+  "exec": "pnpm build"
+}

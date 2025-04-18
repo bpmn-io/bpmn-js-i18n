@@ -1,11 +1,16 @@
 {
   "name": "bpmn-js-i18n",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "description": "Community contributed bpmn-js translations.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/main.d.ts",
   "type": "module",
   "scripts": {
-    "all": "npm test",
-    "test": "node test/test.js"
+    "dev": "nodemon",
+    "build": "rollup -c --configPlugin typescript",
+    "all": "pnpm test",
+    "test": "esno test/test.ts"
   },
   "engines": {
     "node": ">= 16"
@@ -25,5 +30,17 @@
   ],
   "peerDependencies": {
     "bpmn-js": ">= 16"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.14.1",
+    "esno": "^4.8.0",
+    "fs-extra": "^11.3.0",
+    "nodemon": "^3.1.9",
+    "rollup": "^4.40.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
   }
 }

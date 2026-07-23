@@ -17,6 +17,8 @@ This repository collects community maintained translations for [bpmn-js](https:/
 * [Portuguese](./translations/pt.js)
 * [Russian](./translations/ru.js)
 * [Spanish](./translations/es.js)
+* [Persian](./translations/fa.js)
+
 
 See also [translation coverage](./docs/COVERAGE.md).
 

@@ -4,15 +4,17 @@ A coverage report for existing translations, updated regularily against the late
 
 | Language | Status | Missing keys | Unknown keys |
 | :--- | :---: | ---: | ---: |
-|[de](../translations/de.js)|🟡|1|25|
-|[en](../translations/en.js)|🟡|1|25|
-|[es](../translations/es.js)|🟡|1|25|
-|[fr](../translations/fr.js)|🔴|35|14|
-|[it](../translations/it.js)|🔴|35|15|
-|[ja](../translations/ja.js)|🟢|0|0|
-|[pl](../translations/pl.js)|🔴|14|12|
-|[pt](../translations/pt.js)|🔴|27|15|
-|[ru](../translations/ru.js)|🟡|2|13|
-|[zn](../translations/zn.js)|🔴|12|19|
+|[ar](../translations/ar.js)|🟡|2|25|
+|[de](../translations/de.js)|🟡|2|25|
+|[en](../translations/en.js)|🟡|2|25|
+|[es](../translations/es.js)|🟡|2|25|
+|[fa](../translations/fa.js)|🟡|2|25|
+|[fr](../translations/fr.js)|🔴|36|14|
+|[it](../translations/it.js)|🔴|36|15|
+|[ja](../translations/ja.js)|🟡|1|0|
+|[pl](../translations/pl.js)|🔴|15|12|
+|[pt](../translations/pt.js)|🔴|28|15|
+|[ru](../translations/ru.js)|🟡|3|13|
+|[zn](../translations/zn.js)|🔴|13|19|
 
 _Missing keys_ indicate entries without translation, _unknown keys_ refer to entries that are no longer valid.
